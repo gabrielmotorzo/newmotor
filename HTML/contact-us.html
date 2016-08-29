@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Motorzo - #SmartCarService</title>
+
+		<meta name="keywords" content="CarService" />
+		<meta name="description" content="Motorzo - #SmartCarService">
+		<meta name="motorzo" content="motorzo.in">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/c2c.css">
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="body">
+			<header id="header" class="header-narrow" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 57, "stickySetTop": "-57px", "stickyChangeLogo": false}'>
+				<div class="header-body">
+					<div class="header-top header-top-tertiary header-top-style-3">
+						<div class="container">
+							<p class="pull-right text-color-light">
+								<span class="mr-xs">
+									<a href="" class="btn btn-primary" data-toggle="modal" data-target="#callbackModal" id="callback"><i class="icon-call-end icons mr-xs"></i>
+												Get a call back
+												</a>
+								</span><span class="hidden-xs"></span>
+							</p>
+						</div>
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-logo">
+									<a href="index.html">
+										<img alt="Motorzo" width="105" src="img/services/logo.png">
+									</a>
+								</div>
+							</div>
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+											<i class="fa fa-bars"></i>
+										</button>
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+											<nav>
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a href="index.html">
+															Home
+														</a>
+													</li>
+													<li class="">
+														<a href="about.html">
+															About
+														</a>
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-toggle" href="#">
+															Services
+														</a>
+														<ul class="dropdown-menu">
+															<li><a href="regular.html">Regular Services</a></li>
+															<li><a href="repairs.html">Repairs &amp; Fixes</a></li>
+															<li><a href="body.html">Bodyworks</a></li>
+															<li><a href="clean.html">Cleaning &amp; Care</a></li>
+															<li><a href="tyres.html">Tyres &amp; Batteries</a></li>
+														</ul>
+													</li>
+													<li class="">
+														<a href="https://motorzo.wordpress.com/" target="_blank">
+															Blog
+														</a>
+													</li>
+													<li class="">
+														<a href="http://motorzo.in/offers/#/book" target="_blank">
+															offers
+														</a>
+													</li>
+													<li class="">
+														<a href="faq.html">
+															FAQ
+														</a>
+													</li>
+													<li class="active">
+														<a href="contact.html">
+															Contact-Us
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div id="booknow" data-toggle="modal" data-target="#booknowModal"><h4>BooK Now</h4></div>
+			<div role="main" class="main">
+
+				<section class="page-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+									<li><a href="#">Home</a></li>
+									<li class="active">Contact Us</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Contact Us</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+				<div id="map" class="google-map"></div>
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-6">
+							<h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
+							<form id="contactForm" action="contact.php" method="POST">
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-6">
+											<label>Your name *</label>
+											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+										</div>
+										<div class="col-md-6">
+											<label>Your email address *</label>
+											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Phone</label>
+											<input type="text" value="" data-msg-required="Please enter the mobile." maxlength="100" class="form-control" name="phone" id="phone" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Message *</label>
+											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg" data-loading-text="Loading...">
+									</div>
+								</div>
+							</form>
+							<div class="alert alert-success hidden" id="contactSuccess">
+								<strong>Success!</strong> Your message has been sent to us.
+							</div>
+
+							<div class="alert alert-danger hidden" id="contactError">
+								<strong>Error!</strong> There was an error sending your message.
+							</div>
+						</div>
+						<div class="col-md-6">
+
+							<h4 class="heading-zo mt-lg">Get in <strong>Touch</strong></h4>
+							<p>Our helpline is always open to receive any inquiry or feedback. Please feel free to drop us an email from the form below and we will get back to you as soon as we can.</p>
+
+							<hr>
+
+							<h4 class="heading-zo">The <strong>Office</strong></h4>
+							<ul class="list list-icons list-icons-style-3 mt-xlg">
+								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> Address: #1, Khykha Chambers, 100 Feet Road, Koramangala, Bangalore - 560047</li>
+								<li><i class="fa fa-phone"></i> <strong>Phone:</strong>+91 7848 060606</li>
+								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:support@motorzo.in">support@motorzo.in</a></li>
+							</ul>
+
+							<hr>
+
+							<h4 class="heading-zo">Business <strong>Hours</strong></h4>
+							<ul class="list list-icons list-dark mt-xlg">
+								<li><i class="fa fa-clock-o"></i> Monday - Friday - 9am to 6pm</li>
+								<li><i class="fa fa-clock-o"></i> Saturday - 9am to 6pm</li>
+								<li><i class="fa fa-clock-o"></i> Sunday - 9am to 6pm</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<footer id="footer" class="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/1a.png" alt="" height="" width="">
+								<h4>Regular service</h4>
+							</div>
+							<p>Regular service and maintenance is important in keeping your car in top shape. Get the best prices only on MotorZo.<a href="regular.html" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/2a.png" alt="" height="" width="">
+								<h4>Repairs and Fixes</h4>
+							</div>
+							<p>You never know when your car might need repairs. Stay ahead and get the best service possible with MotorZo.  <a href="repairs.html" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/3a.png" alt="" height="" width="">
+								<h4>Bodyworks</h4>
+							</div>
+							<p>Worried about how expensive denting and painting works are? You should definitely try MotorZo to get great deals at the best service stations. <a href="body.html" class="btn-flat btn-xs">View More  <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/4a.png" alt="" height="" width="">
+								<h4> Cleaning and Care</h4>
+							</div>
+							<p>There's nothing like a shining, sparkling car. And there's no one better than MotorZo to do it.<a href="maintenance.html" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/5a.png" alt="" height="" width="">
+								<h4>Tyres and Batteries</h4>
+							</div>
+							<p>Don't know where to go to get new tyres and batteries? MotorZo gives you the best placesnear you. <a href="tyres.html" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="text-center">
+								<img src="img/icons/6a.png" alt="breakdown" height="" width="">
+								<h4></i> Breakdown</h4>
+							</div>
+							<p>Car broke down and don't know what to do? Contact us and we will save your day.<a href="break.html" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2 col-xs-4">
+								<a href="index.html" class="logo">
+									<img alt="Motorzo" class="img-responsive" src="img/foot.png" height="">
+								</a>
+							</div>
+							<div class="col-md-6 col-xs-8 mt-xl">
+								<p>
+									<i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:support@motorzo.in">support@motorzo.in</a></p>
+							</div>
+							<div class="col-md-4 col-xs-12 mt-xl">
+								<nav id="sub-menu" class="col-xs-10 col-xs-offset-1 col-sm-offset-0">
+									<ul>
+										<li><a href="faq.html">FAQ's</a></li>
+										<li><a href="sitemap.html">Terms &amp; Conditions</a></li>
+										<li><a href="privacy.html">Privacy</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="row text-center">
+							<ul class="social-icons">
+								<li class="social-icons-facebook"><a href="http://www.facebook.com/MotorZo/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/MotorZo" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/company/motorzo" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- modals -->
+			<div class="modal fade" id="booknowModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="">Book your car service now</h4>
+						</div>
+						<div class="modal-body">
+							<div class="alert alert-success hidden" id="contactSuccess1">
+								<strong>Success!</strong> Your message has been sent to us.
+							</div>
+							<div class="alert alert-danger hidden" id="contactError1">
+								<strong>Error!</strong> There was an error sending your
+							</div>
+							<form id="bookForm" action="booknow.php" method="POST">
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-6">
+											<label>Your name <span class="imp">*</span></label>
+											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+										</div>
+										<div class="col-md-6">
+											<label>Your email address <span class="imp">*</span></label>
+											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Phone <span class="imp">*</span></label>
+											<input type="text" value="" data-msg-required="Please enter the mobile." maxlength="100" class="form-control" name="phone" id="phone" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label for="">Select Service <span class="imp">*</span></label>
+											<select name="selectedService" id="selectedService" class="form-control">
+												<option value="199">On Demand Eco Car Wash (from ₹199)</option>
+												<option value="Full Wash + Vaccum + Wax Polish(from ₹499)">Full Wash + Vaccum + Wax Polish(from ₹499)</option>
+												<option value="Full Wash + Service Pro(from ₹399)">Full Wash + Service Pro(from ₹399)</option>
+												<option value="General Check-Up and Full Service (from ₹2499)">General Check-Up and Full Service (from ₹2499)</option>
+												<option value="A/C Neutralizer (from ₹749)">A/C Neutralizer (from ₹749)</option>
+												<option value="Uphoistery Cleaning (from ₹999)">Uphoistery Cleaning (from ₹999)</option>
+												<option value="New Tyres (₹100 off)">New Tyres (₹100 off)</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Message <span class="imp">*</span></label>
+											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<!-- <div class="col-md-12">
+                                        <input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg" data-loading-text="Loading...">
+                                    </div> -->
+								</div>
+								<div class="modal-footer">
+									<!-- <input type="submit" class="btn btn-primary button"> -->
+									<div class="col-md-12">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg" data-loading-text="Loading...">
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="formModalLabel">Get a call back </h4>
+						</div>
+						<div class="modal-body">
+							<div id="call"></div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Vendor -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/common/common.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="vendor/jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="vendor/vide/vide.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+		<script src="js/click2call.js"></script>
+        <script type="text/javascript"> init("e3dd6b6b-e11b-11e5-a7c5-067cf20e9301","+917848060606","+917848060606")
+       	</script>
+
+		<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 12.9260788, lng: 77.6268167},
+          zoom: 14,
+          scrollwheel: false,
+          scalControl: false
+          //markers: marker
+        });
+        var styles = [
+          {
+            stylers: [
+              { hue: '#2f343c' },
+              { saturation: -20 }
+            ]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [
+              { lightness: 100 },
+              { visibility: 'on' },
+              { color: '#ff9800'}
+            ]
+          },
+          {
+            featureType: 'road',
+            elementType: 'labels',
+            stylers: [
+              { visibility: 'off' }
+            ]
+          }
+        ];
+        map.setOptions({styles: styles});
+        var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+  	  	var marker = new google.maps.Marker({
+          map: map,
+          animation: google.maps.Animation.BOUNCE,
+          position: {lat: 12.9260788, lng: 77.6268167},
+          icon: image,
+          scrollWheel: false,
+          scalControl: false
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDStL9M17hARws6wiw92qOzkpv88UC2m1g&callback=initMap" async defer></script>
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
+	</body>
+</html>

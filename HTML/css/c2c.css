@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.click_to_call_form:before {
+    content: "";
+    height: 45px;
+    left: -109px;
+    position: absolute;
+    top: 0;
+    width: 101px;
+}
+
+.click_to_call_form {
+    line-height: 0;
+    margin-top: 0;
+    padding: 8px;
+    position: relative;
+}
+
+.powered_by_sr {
+    background: #fff;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.click_to_call_form_wrapper {
+    height: 60px;
+
+}
+
+.widget_tb {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    font-size: 16px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 1%;
+    text-indent: 3%;
+    width: 98%;
+    float: left;
+}
+
+.widget_tb:focus,
+.widget_tb:active {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.widget_c2c_button {
+    display: inline-block;
+    width: 60px;
+    margin-left: -68px;
+    margin-top: 6px;
+    height: 25px;
+    border-radius: 5px !important;
+
+}
+
+
+.failure_C2C {
+    color: #a63737;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.success_C2C {
+    color: #76a609;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
